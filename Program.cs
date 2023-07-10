@@ -34,3 +34,36 @@
 
 // Console.Write("max = "); 
 // Console.WriteLine(max); 
+
+// Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+// Console.Write("Введите число: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+
+// if (a % 2 == 0)
+// {
+//     Console.WriteLine("Да");
+// }
+// else
+// {
+//     Console.WriteLine("Нет");
+// }
+
+// Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+// System.Console.WriteLine("Введите число:");
+// int N = int.Parse(Console.ReadLine());
+// int i = 1;
+// if (N <= 1)
+// {
+//     System.Console.WriteLine("Введите число, которое будет больше чем 1: ");
+// }
+// else
+// {
+//     System.Console.WriteLine("Все четные числа от 1 до " + N);
+//     while (i <= N)
+//     {
+//         System.Console.WriteLine(i += 1);
+//         i++;
+//     }
+// }
